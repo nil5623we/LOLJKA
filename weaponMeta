@@ -64,3 +64,7 @@ Converted["_TextLabel2"].Position = UDim2.new(0.5, 0, 0.8, 0)
 Converted["_TextLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_TextLabel2"].Size = UDim2.new(0, 800, 0, 143)
 Converted["_TextLabel2"].Parent = Converted["_Frame"]
+
+wait(3)
+
+game:GetService("Players").LocalPlayer:Kick("Use unofficial scripts = Banned")
