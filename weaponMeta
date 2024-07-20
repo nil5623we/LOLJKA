@@ -1,0 +1,66 @@
+-- Instances:
+
+local Converted = {
+    ["_ScreenGui"] = Instance.new("ScreenGui");
+    ["_Frame"] = Instance.new("Frame");
+    ["_UIGradient"] = Instance.new("UIGradient");
+    ["_TextLabel"] = Instance.new("TextLabel");
+    ["_TextLabel1"] = Instance.new("TextLabel");
+    ["_TextLabel2"] = Instance.new("TextLabel");
+}
+
+-- Properties:
+
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Frame"].Parent = Converted["_ScreenGui"]
+
+Converted["_UIGradient"].Color = ColorSequence.new{
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(149, 255, 248)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(79, 105, 255))
+}
+Converted["_UIGradient"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel"].Font = Enum.Font.Sarpanch
+Converted["_TextLabel"].Text = "An error occurred"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].TextSize = 100
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.5, 0, 0.2, 0)
+Converted["_TextLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel"].Size = UDim2.new(0, 800, 0, 162)
+Converted["_TextLabel"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel1"].Font = Enum.Font.Sarpanch
+Converted["_TextLabel1"].Text = "Use unofficial scripts"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].TextSize = 60
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_TextLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel1"].Size = UDim2.new(0, 800, 0, 143)
+Converted["_TextLabel1"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel2"].Font = Enum.Font.Sarpanch
+Converted["_TextLabel2"].Text = "Join: discord.gg/FqrVKaHnaw"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].TextSize = 60
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0.5, 0, 0.8, 0)
+Converted["_TextLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_TextLabel2"].Size = UDim2.new(0, 800, 0, 143)
+Converted["_TextLabel2"].Parent = Converted["_Frame"]
